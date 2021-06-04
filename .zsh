@@ -17,4 +17,4 @@ alias sn-i='sudo snap install '
 alias sn-r='sudo snap remove ' 
 alias p-i='pip3 install'
 alias p-ir='pip3 install -r requirement.txt'
-alias fix db.lock = "sudo rm /var/lib/pacman/db.lck $$ echo Done."
+alias fixdb='sudo rm /var/lib/pacman/db.lck $$ echo Done'
