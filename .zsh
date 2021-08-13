@@ -1,4 +1,5 @@
 export ZSH="$HOME/.oh-my-zsh"
+source /usr/bin/virtualenvwrapper.sh       
 ZSH_THEME="alanpeabody"
 ENABLE_CORRECTION="true"
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting django python ubuntu sudo )
@@ -18,3 +19,8 @@ alias sn-r='sudo snap remove '
 alias p-i='pip3 install'
 alias p-ir='pip3 install -r requirement.txt'
 alias fixdb='sudo rm /var/lib/pacman/db.lck $$ echo Done'
+
+
+
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/Devel
