@@ -2,7 +2,7 @@ export ZSH="$HOME/.oh-my-zsh"
 source /usr/bin/virtualenvwrapper.sh       
 ZSH_THEME="alanpeabody"
 ENABLE_CORRECTION="true"
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting django python ubuntu sudo )
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting python ubuntu sudo )
 source $ZSH/oh-my-zsh.sh
 
 # some more ls aliases
